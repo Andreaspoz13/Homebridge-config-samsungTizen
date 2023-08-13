@@ -1,0 +1,133 @@
+{
+    "bridge": {
+        "name": "Homebridge 16C9",
+        "username": "0E:3D:36:83:16:C9",
+        "port": 51026,
+        "pin": "211-17-965",
+        "advertiser": "bonjour-hap"
+    },
+    "accessories": [],
+    "platforms": [
+        {
+            "name": "Config",
+            "port": 8581,
+            "platform": "config"
+        },
+        {
+            "devices": [
+                {
+                    "api_key": "37b394f0-af09-444a-b4c9-ce016f6f4772",
+                    "device_id": "a5c93acb-69e8-9409-da53-389aaeeb64d1",
+                    "name": "Living Room TV",
+                    "ip": "192.168.2.14",
+                    "mac": "D8:A3:5C:61:82:CE",
+                    "inputs": [
+                        {
+                            "name": "Youtube",
+                            "type": "app",
+                            "value": "111299001912"
+                        },
+                        {
+                            "name": "Plex",
+                            "type": "app",
+                            "value": "3201512006963"
+                        },
+                        {
+                            "name": "Apple TV",
+                            "type": "app",
+                            "value": "3201807016597"
+                        },
+                        {
+                            "name": "TV",
+                            "type": "input",
+                            "value": "digitalTv"
+                        },
+                        {
+                            "name": "My Xbox",
+                            "type": "input",
+                            "value": "HDMI3",
+                            "power": true
+                        },
+                        {
+                            "name": "Playstation",
+                            "type": "input",
+                            "value": "HDMI1",
+                            "power": true
+                        },
+                        {
+                            "name": "HDMI2",
+                            "type": "input",
+                            "value": "HDMI2"
+                        },
+                        {
+                            "name": "Power ON/OFF",
+                            "command": "KEY_POWER"
+                        },
+                        {
+                            "name": "Alpha Kyprou",
+                            "channel": 1
+                        },
+                        {
+                            "name": "ANT1",
+                            "channel": 2
+                        },
+                        {
+                            "name": "ΡΙΚ1",
+                            "channel": 10
+                        },
+                        {
+                            "name": "SIGMA",
+                            "channel": 14
+                        },
+                        {
+                            "name": "SMILE TV",
+                            "channel": 15
+                        },
+                        {
+                            "name": "OMEGA",
+                            "channel": 8
+                        },
+                        {
+                            "name": "Euronews",
+                            "channel": 6
+                        },
+                        {
+                            "name": "Raise Volume by 5",
+                            "command": "KEY_VOLUP*5"
+                        },
+                        {
+                            "name": "Raise Volume by 10",
+                            "command": "KEY_VOLUP*10"
+                        },
+                        {
+                            "name": "Volume Up",
+                            "command": "KEY_VOLUP"
+                        },
+                        {
+                            "name": "Channel Up",
+                            "command": "KEY_CHUP"
+                        },
+                        {
+                            "name": "Channel Down",
+                            "command": "KEY_CHDOWN"
+                        },
+                        {
+                            "name": "Πρόγραμμα Καναλίων",
+                            "command": "KEY_GUIDE"
+                        },
+                        {
+                            "name": "Home Menu",
+                            "command": "KEY_CONTENTS"
+                        },
+                        {}
+                    ]
+                }
+            ],
+            "_bridge": {
+                "username": "0E:58:9F:3F:15:F3",
+                "port": 47470
+            },
+            "platform": "SamsungTizen"
+        }
+    ]
+}
